@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kuromii5/osu-parser/internal/auth"
-	"github.com/kuromii5/osu-parser/internal/database"
+	"github.com/kuromii5/blog_scraper/internal/auth"
+	"github.com/kuromii5/blog_scraper/internal/database"
 )
 
 type authedHandler func(http.ResponseWriter, *http.Request, database.User)

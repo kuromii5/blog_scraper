@@ -1,4 +1,4 @@
-module github.com/kuromii5/osu-parser
+module github.com/kuromii5/blog_scraper
 
 go 1.22.0
 

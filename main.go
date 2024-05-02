@@ -11,7 +11,7 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"
-	"github.com/kuromii5/osu-parser/internal/database"
+	"github.com/kuromii5/blog_scraper/internal/database"
 
 	_ "github.com/lib/pq"
 )

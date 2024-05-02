@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/kuromii5/osu-parser/internal/database"
+	"github.com/kuromii5/blog_scraper/internal/database"
 )
 
 func startScraping(db *database.Queries, concurrency int, timeBetweenRequest time.Duration) {

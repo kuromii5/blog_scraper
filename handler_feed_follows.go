@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
-	"github.com/kuromii5/osu-parser/internal/database"
+	"github.com/kuromii5/blog_scraper/internal/database"
 )
 
 func (apiCfg *apiConfig) handleCreateFeedFollow(w http.ResponseWriter, r *http.Request, user database.User) {

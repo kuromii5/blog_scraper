@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/kuromii5/osu-parser/internal/database"
+	"github.com/kuromii5/blog_scraper/internal/database"
 )
 
 func (apiCfg *apiConfig) handleCreateUser(w http.ResponseWriter, r *http.Request) {
